@@ -47,3 +47,11 @@ Dữ liệu được lưu trong `localStorage` của **trình duyệt và thiế
 ## Lưu ý
 
 Ứng dụng hỗ trợ theo dõi, không phải chỉ dẫn y khoa. Với tiền sử đau mặt trước gối, giảm tải khi đau tăng hoặc sưng và tham khảo chuyên gia khi cần.
+
+
+## v1.1 — Hình minh họa bài tập
+- Thêm hình SVG riêng cho từng bài tập, lưu tại `public/exercises/`, không phụ thuộc website ảnh bên ngoài.
+- Hình mang tính **minh họa nhận diện bài tập**, không phải hướng dẫn kỹ thuật chuẩn hoặc ảnh chụp người tập.
+- Hình xuất hiện trong **Hôm nay** và **Lịch tuần**.
+- Giữ nguyên localStorage key `momentum-workout-v1`, không xóa nhật ký cũ.
+- Upload **toàn bộ nội dung** ZIP vào thư mục gốc repository (bao gồm `public/`).
