@@ -55,3 +55,10 @@ Dữ liệu được lưu trong `localStorage` của **trình duyệt và thiế
 - Hình xuất hiện trong **Hôm nay** và **Lịch tuần**.
 - Giữ nguyên localStorage key `momentum-workout-v1`, không xóa nhật ký cũ.
 - Upload **toàn bộ nội dung** ZIP vào thư mục gốc repository (bao gồm `public/`).
+
+
+## v1.2 — Ảnh bài tập PNG
+- Thay SVG bằng PNG minh họa người tập cơ bắp; ảnh được lưu trong `public/exercises`.
+- Sửa đường dẫn ảnh theo `import.meta.env.BASE_URL` để hoạt động trên GitHub Pages dưới `/personal-workout-tracker/`.
+- Một số bài phụ dùng ảnh đại diện nhóm vận động, **không phải ảnh hướng dẫn kỹ thuật chính xác**.
+- Khi cập nhật lên GitHub, tải toàn bộ nội dung ZIP (bao gồm `.github`) lên gốc repository.
